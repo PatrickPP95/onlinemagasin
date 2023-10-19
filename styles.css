@@ -83,12 +83,6 @@
     font-size: 20px;
   }
 
- 
- 
-
-  
-
-  
 
   /*----- Main section starter her -----*/
 
@@ -101,6 +95,7 @@
     left: 0;
     margin-left: 40px;
     margin-top: 10px;
+    flex: 1;
   }
 
 
@@ -115,7 +110,9 @@
     padding: 50px;
     font-family: 'Poppins-semibold', sans-serif;
     font-size: larger;
+    flex: 2;
   }
+
 
   /*----- Styling på main artikel 1 starter her -----*/
 
@@ -157,6 +154,22 @@
     color: #c93941;
   }
 
+    /* Medieforespørgsel for skærme med en maksimal bredde på 768px (typisk mobilskærme) */
+
+    @media (max-width: 768px) {
+      .main1 {
+        flex-direction: column;
+      }
+    }
+      .billede-venstre1 {
+        flex: 1;
+        width: 100%;
+      }
+  
+      .tekst-højre1 {
+        max-width: 80%;
+      }
+
   /*----- Styling på main artikel 1 slutter her -----*/
 
   /*------ Styling på main artikel 2 starter her -----*/
@@ -188,6 +201,21 @@
     margin-top: 10px;
   }
 
+  /* Medieforespørgsel for skærme med en maksimal bredde på 768px (typisk mobilskærme) */
+
+  @media (max-width: 768px) {
+    .main2 {
+      flex-direction: column;
+    }
+  }
+    .billede-venstre2 {
+      flex: 1;
+      width: 100%;
+    }
+
+    .tekst-højre2 {
+      max-width: 80%;
+    }
 
     /*----- Styling på main artikel 2 slutter her -----*/
 
@@ -219,6 +247,24 @@
       text-align: left;
       margin-top: 10px;
     }
+
+    /* Medieforespørgsel for skærme med en maksimal bredde på 768px (typisk mobilskærme) */
+
+    @media (max-width: 768px) {
+      .main3 {
+        flex-direction: column;
+      }
+    }
+      .billede-venstre3 {
+        flex: 1;
+        width: 100%;
+      
+      }
+
+      .tekst-højre3 {
+        max-width: 80%;
+      }
+    
 
     /*----- Styling på main artikel 3 slutter her -----*/
 
