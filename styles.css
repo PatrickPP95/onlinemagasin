@@ -1,0 +1,301 @@
+/* reset */
+*,
+:after,
+:before{
+    margin:0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    }
+
+    html {
+        font-size: 100%;
+    }
+
+    /* You start your CSS below */
+
+    
+
+.body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif
+  }
+  
+  a {
+    color: #000;
+  }
+
+/*----- Header section starter her -----*/
+
+  .header {
+    background-color: #c93941;
+    color: white;
+    padding: 0;
+    position: relative;
+  }
+
+  .so_me {
+   position: absolute;
+   top: 30px;
+   right: 10px;
+   max-width: 80px;
+   height: auto;
+   margin-right: 30px;
+
+  }
+
+  .stærk_logo {
+    width: 280px;
+    height: auto;
+    margin-left: 50px;
+  }
+
+  .navbar {
+    position: relative;
+    padding: 10px;
+    color: #f4f4f4;
+    background-color: #b13439;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: large;
+    font-family: 'Poppins-semibold', sans-serif;
+    
+  
+  }
+
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .navbar li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  .navbar a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    margin-right: 200px;
+    margin-left: 50px;
+    font-size: 20px;
+  }
+
+ 
+ 
+
+  
+
+  
+
+  /*----- Main section starter her -----*/
+
+  .main-header {
+    color: #000;
+    padding: 20px;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+
+
+  .main {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 50px;
+    font-family: 'Poppins-semibold', sans-serif;
+    font-size: larger;
+  }
+
+  /*----- Styling på main artikel 1 starter her -----*/
+
+  .main1 {
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Poppins-semibold', sans-serif;
+  
+  }
+
+  .billede-venstre1 {
+    flex: 1;
+  }
+
+  .billede-venstre1 img {
+    width: 95%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .tekst-højre1 {
+    flex: 2;
+    color: #26427a;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .stregartikel1 {
+    border: none;
+    border-top: 2px solid #c93941;
+    margin: 20px 0;
+  }
+
+  .highlight-red {
+    color: #c93941;
+  }
+
+  /*----- Styling på main artikel 1 slutter her -----*/
+
+  /*------ Styling på main artikel 2 starter her -----*/
+
+  .main2 {
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Poppins-semibold', sans-serif;
+  }
+
+  .billede-venstre2 {
+    flex: 1;
+  }
+
+  .billede-venstre2 img {
+    width: 95%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .tekst-højre2 {
+    flex: 2;
+    color: #26427a;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-top: 10px;
+  }
+
+
+    /*----- Styling på main artikel 2 slutter her -----*/
+
+    /*----- Styling på main artikel 3 starter her -----*/
+
+    .main3 {
+      display: flex;
+      align-items: flex-start;
+      font-family: 'Poppins-semibold', sans-serif;
+    }
+  
+    .billede-venstre3 {
+      flex: 1;
+    }
+  
+    .billede-venstre3 img {
+      width: 95%;
+      height: 100%;
+      object-fit: cover;
+    }
+  
+    .tekst-højre3 {
+      flex: 2;
+      color: #26427a;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+      margin-top: 10px;
+    }
+
+    /*----- Styling på main artikel 3 slutter her -----*/
+
+  .h1 {
+    color: #26427a;
+    font-weight: bold;
+  }
+
+  .h2 {
+    color: #26427a;
+    font-weight: bold;
+  }
+
+  .highlight1 {
+    color: #c93941;
+    font-weight: bolder;
+  }
+
+  .highlight2 {
+    color: #c93941;
+    font-weight: bolder;
+  }
+
+  .highlight3 {
+    color: #c93941;
+    font-weight: bolder;
+  }
+   
+
+  .image-container {
+    text-align: center;
+    margin: 0 10px;
+    padding: 0;
+    position: relative;
+  }
+
+  .image-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(38, 66, 122, 0.7);
+    color: white;
+    font-family: 'Poppins', sans-serif;    
+  }
+
+  .image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    }
+
+    
+
+    a:hover {
+      cursor: pointer;
+      opacity: 0.3;
+    }
+
+    /*------Slut på main section ------*/
+
+
+
+
+  /*----- Footer section starter her ------*/
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    padding: 20px;  
+    background-color: #c93941;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+  }
+
+
+
